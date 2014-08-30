@@ -25,4 +25,9 @@
   (fp_line (start -2.032 2.54) (end -2.286 2.286) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -1.8415 0) (size 1.5 4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.8415 0) (size 1.5 4) (layers F.Cu F.Paste F.Mask))
+  (model smd/inductors/Inductor_Taiyo_NRS05XX.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 4 4 4))
+    (rotate (xyz 0 0 0))
+  )
 )
