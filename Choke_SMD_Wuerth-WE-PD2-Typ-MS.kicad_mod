@@ -3,10 +3,10 @@
   (descr "Choke, Drossel, WE-PD2, Typ MS, Wuerth, SMD,")
   (tags "Choke, Drossel, WE-PD2, Typ MS, Wuerth, SMD,")
   (attr smd)
-  (fp_text reference Choke_SMD_Wuerth-WE-PD2-Typ-MS (at 0 -5.08) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -5.08) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 5.08) (layer F.SilkS) hide
+  (fp_text value Choke_SMD_Wuerth-WE-PD2-Typ-MS (at 0 5.08) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.39878 2.79908) (end 0.39878 2.79908) (layer F.SilkS) (width 0.15))

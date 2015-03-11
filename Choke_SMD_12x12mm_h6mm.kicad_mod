@@ -2,10 +2,10 @@
   (descr "Choke, SMD, 12x12mm 6mm height")
   (tags "Choke, SMD")
   (attr smd)
-  (fp_text reference Choke_SMD_12x12mm_h6mm (at 0 -8.89) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -8.89) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0 8.89) (layer F.SilkS) hide
+  (fp_text value Choke_SMD_12x12mm_h6mm (at 0 8.89) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0 0) (end 0.89916 0) (layer F.Adhes) (width 0.381))
@@ -72,7 +72,7 @@
   (fp_line (start 6.20014 -6.20014) (end 6.20014 -3.29946) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -4.95046 0) (size 2.90068 5.40004) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.95046 0) (size 2.90068 5.40004) (layers F.Cu F.Paste F.Mask))
-  (model Choke_SMD/Choke_SMD_12x12mm_h6mm.wrl
+  (model Choke_SMD.3dshapes/Choke_SMD_12x12mm_h6mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 4 4 4))
     (rotate (xyz 0 0 0))

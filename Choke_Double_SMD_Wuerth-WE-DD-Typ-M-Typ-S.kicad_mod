@@ -3,10 +3,10 @@
   (descr "Choke, Double, Doppeldrossel,  SMD, , Wuerth, WE-DD, Typ M, Typ S,")
   (tags "Choke, Double, Doppeldrossel,  SMD, , Wuerth, WE-DD, Typ M, Typ S,")
   (attr smd)
-  (fp_text reference Choke_Double_SMD_Wuerth-WE-DD-Typ-M-Typ-S (at 0 -6.35) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -6.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at -1.27 6.35) (layer F.SilkS) hide
+  (fp_text value Choke_Double_SMD_Wuerth-WE-DD-Typ-M-Typ-S (at -1.27 6.35) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 0.8 0) (end 0.8 0) (layer F.Adhes) (width 0.3048))
